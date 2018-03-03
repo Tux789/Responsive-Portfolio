@@ -1,0 +1,236 @@
+body{
+	/*width:960px;*/
+	background: url("../images/subtle_surface.png") repeat;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: auto;
+	padding-bottom: 100px;
+}
+h1,h2,h3,h4{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1{
+	font-size: 2em;
+	font-weight: bold;
+}
+h2{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h3{
+
+}
+h5{
+	font-size: 0.83em;
+	font-weight: bold;
+}
+#header{
+	background: white;
+	width: 960px;
+	margin: auto;
+	}
+#contactForm{
+	width:580px;
+}
+#myName{
+	/*margin-left: 50px;*/
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	padding:20px 10px 0px 10px;
+	height: 68px;
+	/*vertical-align: center;*/
+		}
+header{
+	background-color: white;
+	border-color: #cccccc;
+	height:70px;
+	border-bottom: 2px;
+	border-style: solid;
+
+	/*margin-bottom: 20px;*/
+	width:100%;
+}
+.content{
+	margin-top:20px;
+	width: 610px;
+	/*margin-left: 50px;*/
+	padding: 20px;
+	/*clear:both;*/
+	background: white;
+	border-color: #dddddd;
+	/*min-height: 300px;*/
+	float: left;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.content hr{
+		border: 0px;
+	height: 3px;
+	background-color: #dddddd;
+}
+nav{
+	float: right;
+	height:50px;
+	padding-top: 30px;
+	padding-bottom:20px;
+}
+ul#navlist{
+list-style: none;
+}
+ul#navlist li{
+	display: inline;
+	padding-left: 10px;
+
+}
+.borRight{
+		border-left:1px;
+	border-style: solid;
+	border-color: #eeeeee;
+}
+.pThumb{
+	float: left;
+	position: relative;
+	background: peachpuff;
+	height: 200px;
+	width: 275px;
+	margin: 5px;
+}
+.pText{
+	position: absolute;
+	bottom: 30px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+
+	/*margin-top: 10px;*/
+	padding-top: 10px;
+	margin-bottom: 10px;
+
+	height: 50px;
+	width: 275px;
+}
+.pText h2{
+	color: white;
+	text-decoration: 
+}
+.pImg{
+	height: 200px;
+	width: 275px;
+}
+#connectMe{
+	margin-top:20px;
+	width:270px;
+float: right;
+text-align: center;
+padding: 10px;
+/*clear: both;*/
+}
+#connectMe hr{
+		border: 0px;
+	height: 2px;
+	background-color: #eeeeee;
+}
+ul#connectList{
+list-style: none;
+}
+ul#connectList li{
+	display: inline;
+	padding: 5px;
+}
+#connectList img{
+	height:64px;
+}
+
+footer{
+	/*margin-top:20px;*/
+	clear:both;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+	padding:20px;
+	border-top: 5px;
+border-color: #4aaaa5;
+border-style: solid;
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
+
+#myUglyMug{
+	height:200px;
+	width:200px;
+	float: left;
+	margin-right: 10px;
+}
+.bgWhite{
+	background-color: white;
+}
+.clearfix::after{
+	/*content="";*/
+	/*display:block;*/
+	clear: both;
+}
+form{
+	display: block;
+	clear: both;
+}
+.contentArea{
+	clear: both;
+	width: 960px;
+	margin: auto;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+.contactDiv{
+	padding-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color:#777777;
+
+}
+.width70{
+	width: 70%;
+}
+#submitButton{
+	background-color: #4aaaa5;
+	width: 20%;
+	border: none;
+	padding:10px;
+	color: white;
+	font-size: 1.05em;
+}
+/*hr{
+	border: 0px;
+	height: 3px;
+	background-color: #dddddd;
+}*/
+
+@media  screen and (max-width: 768px){
+	body{
+		/*padding-bottom:650px;*/
+	}
+	.contentArea{
+		width:100%;
+		/*height:1000px;*/
+		/*//padding-bottom:450px;*/
+		padding-left: 10px;
+		padding-right: 10px;
+			}
+	#header{
+		width: 100%;
+		padding-right: 10px;
+		padding-left: 10px;
+		
+	}
+	.content{
+		width: 100%;
+
+
+	}
+	#connectMe{
+		width: 100%;
+	}
+}
