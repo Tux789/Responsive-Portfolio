@@ -234,3 +234,25 @@ a{
 		width: 100%;
 	}
 }
+@media screen and (max-width:  640px){
+	#myName{
+		/*margin-left: 10px;*/
+		/*margin-right: 10px;*/
+		width: 100%;
+		text-align: center;
+	}
+	nav{
+		height: auto;
+		margin: auto;
+		/*float: none;*/
+		/*margin-left:10px;*/
+		/*margin-right: 10px;*/
+		width: 100%;
+		text-align: center;
+	}
+	#header{
+		/*margin-left: 10px;*/
+		/*margin-right: 10px;*/
+		height: 136px;
+	}
+}
