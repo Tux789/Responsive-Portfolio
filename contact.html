@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title> Contact Me</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,15 +32,15 @@
 	<form name="contactForm" id= "contactForm" class="content clear">
 	<div class ="contactDiv">
 		Name<br>		
-		<input name="contactName" class="width70" type="text" required><br>
+		<input id="contactName" name="contactName" class="width70" type="text" required><br>
 	</div>
 	<div class="contactDiv">
 		E-Mail<br>
-		<input name="contactEmail" class="width70" type="email" required><br>
+		<input id="contactEmail" name="contactEmail" class="width70" type="email" required><br>
 	</div>
 	<div class="contactDiv">
 		Message<br>
-		<textarea name="contactMessage" class="width70" rows=5 cols="50" form="contactForm">
+		<textarea name="contactMessage" id="contactMessage" class="width70" rows=5 cols="50" form="contactForm">
 		</textarea><br>
 	</div>
 	<!-- button -->
